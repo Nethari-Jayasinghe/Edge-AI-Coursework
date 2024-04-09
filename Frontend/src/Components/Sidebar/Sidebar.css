@@ -1,0 +1,24 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; /* Adjust width as needed */
+  height: 100%;
+  background-color: #e9c47d;
+  color: #000000;
+  padding-top: 20px; /* Adjust padding for header */
+}
+.sidebar .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar .items{
+  margin-top: 100px;
+}
+
+.sidebar .items .link{
+  text-decoration: none;
+  color: inherit;
+}
