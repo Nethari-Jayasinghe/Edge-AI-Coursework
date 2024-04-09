@@ -1,0 +1,6 @@
+.body {
+  background-image: url("./background-wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
