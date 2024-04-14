@@ -6,14 +6,15 @@ import os
 import pyrebase
 
 firebaseConfig = {
-    'apiKey': "AIzaSyAIZ40Ce8-36xcPvVVZ_ibijzh0N9ilDZc",
-    'authDomain': "edge-ai-cw.firebaseapp.com",
-    'databaseURL': "https://edge-ai-cw-default-rtdb.firebaseio.com",
-    'projectId': "edge-ai-cw",
-    'storageBucket': "edge-ai-cw.appspot.com",
-    'messagingSenderId': "984457331869",
-    'appId': "1:984457331869:web:e4f4534799dd4e6d848074",
-   'measurementId': "G-MJBC5M8KH0"
+    'apiKey': "XXXXX",
+    'authDomain': "XXXXX",
+    'databaseURL': "XXXXX",
+    'projectId': "XXXXX",
+    'storageBucket': "XXXXX",
+    'messagingSenderId': "XXXXX",
+    'appId': "XXXXX",
+    'measurementId': "XXXXX"
+
 }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
