@@ -7,16 +7,15 @@ interface Props {
   name: string;
   title: string;
   info?: string;
-    onChange: (value: string) => void;
+  onChange: (value: string) => void;
 }
 
-const AppInput = ({ type, name, title, info ,onChange}: Props) => {
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        console.log(event.target.value,"this is being typd")
-        onChange(event.target.value); // Call the onChange callback with the input value
-    };
+const AppInput = ({ type, name, title, info, onChange }: Props) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    onChange(event.target.value); // Call the onChange callback with the input value
+  };
 
-    return (
+  return (
     <>
       <Typography variant="h6" sx={{ marginTop: 1 }}>
         {title}
