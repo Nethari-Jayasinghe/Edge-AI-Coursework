@@ -1,0 +1,19 @@
+class SMSNotifier:
+    def _init_(self):
+        # Load credentials at initialization
+        with open('assets/credentials/api-credentials.json', 'r') as file:
+            self.credentials = json.loads(file.read())
+        
+    def send_sms(self, recipient_phone_no, device_id, device_name, number_of_elephants):
+        key = self.credentials['sms_gateway_server']['key']
+        secret = self.credentials['sms_gateway_server']['secret']
+
+        now = datetime.datetime.now()
+        message = f"URGENT: Elephant detected on {now.strftime('%Y-%m-%d at %H:%M:%S')}. Device ID: {device_id}, Device Name: {device_name}, Number of elephants: {number_of_elephants}"
+        
+        gateway_url = f"https://app.notify.lk/api/v1/send?user_id={key}&api_key={secret}&sender_id=NotifyDEMO&to={recipient_phone_no}&message={message}"
+        response = requests.get(gateway_url)
+        if response.status_code == 200:
+            print("SMS sent successfully!")
+        else:
+            print(f"Error: SMS failed to send; Reason: {response.status_code} {response.content}")
