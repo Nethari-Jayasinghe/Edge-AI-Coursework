@@ -13,14 +13,16 @@ const firebaseConfig = {
   storageBucket: "edge-ai-cw.appspot.com",
   messagingSenderId: "984457331869",
   appId: "1:984457331869:web:e4f4534799dd4e6d848074",
-  measurementId: "G-MJBC5M8KH0"
+  measurementId: "G-MJBC5M8KH0",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app)
 
-export {db};
-export const auth = getAuth();
+const db = getFirestore(app);
+const auth = getAuth(app);
+
+export { db, auth };
+
 const provider = new GoogleAuthProvider();
-export {provider}
+export { provider };
