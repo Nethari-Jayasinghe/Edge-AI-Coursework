@@ -5,6 +5,8 @@ import "./SignUpPage.css";
 type Props = {};
 
 const SignUpPage = (props: Props) => {
+
+  
   return (
     <div className="body">
       <div
