@@ -13,25 +13,15 @@ Module Leader - Mr. Nuwan Jayawardene
 Submitted partially fulfilling the requirements for the BSc (Hons) in Artificial Intelligence and Data Science degree at Robert Gordon University. March 2024 
 Declaration - We confirm that our group worked collaboratively to create this project report and its contents. It has never been presented for an academic purpose before.
 
-Full name : Nethari Jayasinghe
-IIT student no:20210931
-RGU student no:2118527   
+Full name : Nethari Jayasinghe | IIT student no:20210931 | RGU student no:2118527   
 
-Full name :S.W.P.D Illangarathne                                                                     
-IIT student no:20210435 
-RGU student no:2117529
+Full name :S.W.P.D Illangarathne | IIT student no:20210435 | RGU student no:2117529
 
-Full name : Vishmi Herath                                                                            
-IIT student no:20210503                                                                                                  
-RGU student no:2117528      
+Full name : Vishmi Herath | IIT student no:20210503 | RGU student no:2117528      
 
-Full name : Duweeja de Lima
-IIT student no:20210522
-RGU student no:2117517
+Full name : Duweeja de Lima | IIT student no:20210522 | RGU student no:2117517
 
-Full name : Sinali 
-IIT student no:20200933
-RGU student no:2118951
+Full name : Sinali | IIT student no:20200933 | RGU student no:2118951
 
 
 **Abstract**
