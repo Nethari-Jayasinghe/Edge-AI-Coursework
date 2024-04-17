@@ -84,7 +84,7 @@ For successful deployment of the Rumble application, specific hardware and softw
 - **Database**: Firebase Realtime Database for storing user data and detection records.
 - **Cloud Service**: Firebase Storage for image storage and Firebase Authentication for user sign-up.
 
-**Project Implementation Overview:**
+**CHAPTER 2: Project Implementation Overview:**
 
 1. **Hardware Setup**: Raspberry Pi was set up along with the required sensors and camera.
 2. **Virtual Environment**: Created a virtual environment for Python.
