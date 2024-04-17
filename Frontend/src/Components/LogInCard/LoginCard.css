@@ -1,0 +1,43 @@
+.login-wrapper{
+height: 600px;
+}
+.login-card {
+    height: auto;
+    width: 400px;
+    background-color: #FCFCFC;
+    border-radius: 15px;
+    opacity: 0.6;
+  }
+  
+  .login-card .image {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card .image .discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-card .image .discription h2,
+  .login-card .image .discription p {
+    margin: 0;
+  }
+  
+  .login-card .form {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card .footer {
+    display: flex;
+    margin-top:10px;
+    margin-bottom:30px;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,49 @@
+.signup-wrapper{
+  height:700px;
+}
+.signup-card {
+  height: auto;
+  width: 500px;
+  background-color: #FCFCFC;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.signup-card .image {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-card .image .discription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup-card .image .discription h2,
+.signup-card .image .discription p {
+  margin: 0;
+}
+
+.signup-card .form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card .form .sign-up-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card .footer {
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  justify-content: space-between;
+}

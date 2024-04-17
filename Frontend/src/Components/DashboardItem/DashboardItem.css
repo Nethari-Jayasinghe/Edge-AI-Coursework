@@ -1,0 +1,26 @@
+.container{
+    margin: 15px;
+}
+
+.container .item{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 250px;
+    height: 60px;
+}
+.container .item .title{
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container :hover{
+    background-color: #af925b;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
