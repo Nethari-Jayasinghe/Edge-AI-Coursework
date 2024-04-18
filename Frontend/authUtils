@@ -1,0 +1,12 @@
+import { EmailAuthProvider, reauthenticateWithCredential, getAuth } from "firebase/auth";
+
+export const reauthenticateUser = (currentPassword) => {
+    const auth = getAuth();
+    const user = auth.currentUser;
+    if (user && user.email) {
+        const credential = EmailAuthProvider.credential(user.email, currentPassword);
+        return reauthenticateWithCredential(user, credential);
+    } else {
+        return Promise.reject("No user signed in or email missing.");
+    }
+};
